@@ -1,8 +1,9 @@
-quarkus:
+  # Database Configuration
+ quarkus:
   datasource:
     db-kind: mysql 
     username: root
-    password: root
+    password: 123456
     jdbc:
       url: jdbc:mysql://localhost:3306/car_rental?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&disableMariaDbDriver=true
       driver: com.mysql.cj.jdbc.Driver
@@ -25,4 +26,8 @@ quarkus:
     # connect-retries: 10
     # schemas: TEST_SCHEMA
     # sql-migration-prefix: X
-    # repeatable-sql-migration-prefix: K
+    # repeatable-sql-migration-prefix: K 
+    
+  
+    
+    
