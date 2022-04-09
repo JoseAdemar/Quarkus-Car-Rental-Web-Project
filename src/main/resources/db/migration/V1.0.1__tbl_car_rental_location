@@ -1,0 +1,8 @@
+CREATE TABLE tbl_car_rental_location(
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  pickupLocation VARCHAR(50) NOT NULL,
+  returnLocation VARCHAR(50) NOT NULL,
+  carRentalDateAndTime VARCHAR(25) NOT NULL,
+  carReturnDateAndTime VARCHAR(25) NOT NULL
+
+);
